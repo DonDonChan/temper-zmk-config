@@ -138,10 +138,10 @@
 
         cmd_layer {
             bindings = <
-&kp LG(Q)  &kp LG(W)  &kp F      &kp LG(P)  &kp B      &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI   &kp LG(G)  &trans  &trans  &trans  &trans  &trans
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp D      &kp LG(V)  &trans  &trans  &trans  &trans  &trans
-                      &trans     &trans     &trans     &trans  &trans  &trans
+&kp LG(LS(S))  &kp LG(W)  &kp F      &kp LG(P)  &kp B      &kp LC(Z)  &kp LC(Y)  &trans     &trans         &kp LC(LA(DEL))
+&kp LSHFT      &kp LCTRL  &kp LALT   &kp LGUI   &kp LG(G)  &kp LC(A)  &trans     &trans     &trans         &trans
+&kp LG(Z)      &kp LG(X)  &kp LG(C)  &kp D      &kp LG(V)  &kp LC(C)  &kp LC(X)  &kp LC(V)  &kp LC(LS(C))  &kp LC(LS(V))
+                          &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
