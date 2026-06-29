@@ -14,7 +14,7 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <2 3>;
+            if-layers = <3 5>;
             then-layer = <4>;
         };
     };
@@ -86,14 +86,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        functionL {
-            bindings = <&mo 4>;
-            key-positions = <30 35>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
