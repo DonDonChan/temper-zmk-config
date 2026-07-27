@@ -2,10 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+
+    - name: sekigon-gonnoc
+      url-base: https://github.com/sekigon-gonnoc
+
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.2.1
       import: app/west.yml
+
+    - name: zmk-component-bmp-boost
+      remote: sekigon-gonnoc
+      revision: master
+      import: west.yml
+
   self:
     path: config
